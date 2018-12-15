@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import BuyButton from '../utils/BuyButton';
 
 export default class Discount extends Component {
 
@@ -39,7 +40,12 @@ export default class Discount extends Component {
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                     <div>
-                        buttom
+                        <BuyButton 
+                            text='Purchase tickets'
+                            bck='#ffa800'
+                            color='#ffffff'
+                            link='https://www.linkedin.com/in/jonathan-aguero-256648137/'
+                        />
                     </div>
 
                 </div>
