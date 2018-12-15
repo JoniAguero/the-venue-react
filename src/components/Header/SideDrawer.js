@@ -5,8 +5,6 @@ import ListItem from '@material-ui/core/ListItem';
 
 const SideDrawer = (props) => {
 
-  console.log(props);
-
   return (
     <Drawer
       anchor="right"
