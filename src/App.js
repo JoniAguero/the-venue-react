@@ -4,6 +4,7 @@ import Fearured from './components/Featured/Fearured';
 import Info from './components/Info/Info';
 import Highlights from './components/Highlights/Highlights';
 import Pricing from './components/Pricing/Pricing';
+import Location from './components/Location/Location';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Info/>
         <Highlights/>
         <Pricing/>
+        <Location/>
       </div>
     );
   }
