@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import Carousel from './Carousel';
+import TimeUntil from './TimeUntil';
 
 
-export class Fearured extends Component {
+class Fearured extends Component {
   render() {
     return (
       <div style={{position:'relative'}}>
@@ -14,7 +15,11 @@ export class Fearured extends Component {
                 Ariana Grande
             </div>
         </div>
+
+        <TimeUntil/>
+        
       </div>
+      
     )
   }
 }
