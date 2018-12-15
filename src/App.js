@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Fearured from './components/Featured/Fearured';
 import Info from './components/Info/Info';
 import Highlights from './components/Highlights/Highlights';
+import Pricing from './components/Pricing/Pricing';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Fearured/>
         <Info/>
         <Highlights/>
+        <Pricing/>
       </div>
     );
   }
